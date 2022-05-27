@@ -15,6 +15,7 @@ sap-sales-orders-sql-c4 には、sqlの設定ファイルとして以下のsql�
 * sap-customer-order-collection-sql-customer-order-cash-discount-terms-data.sql（SAP 受注 - 顧客受注割引条件データ）  
 * sap-customer-collection-sql-customer-order-party-data.sql（SAP 受注 - 顧客受注情報データ）
 * sap-customer-order-item-data.sql（SAP 受注 - 顧客受注明細データ）  
-
+* sap-customer-order-first-requested-item-schedule-line.sql（SAP 受注 - 顧客初回注文明細スケジュールラインデータ）  
+* sap-customer-order-item-party.sql（SAP 受注 - 顧客受注明細情報データ）  
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
